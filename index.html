@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body id="body">
+    <divc class="shade">
+    <header id="header">
+        <h1 id="headerText">Welcome to your local database!</h1>
+        <div class="dropdown" id="dropdown">
+            <button id="statusBtn" class="statusBtn">
+                <img src="./img/locked.png" alt="locked" height="20" width="16"> Login
+            </button>
+            <div class="dropdown-content" id="dropdownContent">
+            <h4 class="field">Username:</h4>
+            <input type="text" id="usernameInput" class="field">
+            <h4 class="field">Password:</h4>
+            <input type="text" id="passwordInput" class="field">
+            <button id="loginBtn" class="btn">Login</button>
+            <button id="createUserBtn" class="btn">Create new account</button>
+            </div>
+          </div>
+    </header>
+    <section class="contentSection" id="contentSection">
+        <h2 class="hello" id="hello">Hello stranger!</h2>
+        <p class="userText" id="userText">Nice to see you. Please log in to view content. </p>
+    </section>
+    <footer>
+        <h2>Created by Fredrik Carlsson</h2>
+        </footer>
+    </div>
+</body>
+</html>

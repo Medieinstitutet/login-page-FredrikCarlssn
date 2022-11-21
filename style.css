@@ -1,0 +1,82 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+.dropdown-content {
+  background-color: rgba(65, 65, 65, 0.779);
+  display: none;
+  position: absolute;
+  right: 5rem;
+  width: 15rem;
+  overflow: auto;
+  padding: 2rem;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+.dropdown-content .field {
+  display: block;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.924);
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  padding-left: 2rem;
+}
+.statusBtn {
+  margin-right: 5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  border: 10px darkblue double;
+  cursor: pointer;
+}
+.contentSection {
+  min-height: 70vh;
+  padding: 3rem;
+  background-color: #000000a1;
+}
+.redText {
+  color: red;
+  font-weight: bold;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+body {
+  position: relative;
+  background-image: url("./img/code.png");
+  background-size: cover;
+  color: white;
+  padding-bottom: 4rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #000000d0;
+  width: 100vw;
+  padding-left: 2rem;
+}
+
+.btn {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+input {
+  outline: 3px solid rgba(255, 204, 0, 0.739);
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+#addUserBtn {
+  border: 5px solid rgba(49, 43, 43, 0.872);
+}
