@@ -69,7 +69,6 @@ loginBtn.addEventListener("click", () => {
   let userArray = JSON.parse(localStorage.getItem("userArray"));
   const usernameInput = document.getElementById("usernameInput").value;
   const passwordInput = document.getElementById("passwordInput").value;
-  console.log("wtf", addUserBtn);
   for (let i = 0; i < userArray.length; i++) {
     loginBtn.after.innerHTML = "";
     if (

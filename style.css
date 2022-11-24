@@ -1,7 +1,7 @@
 .dropdown {
   display: inline-block;
   position: relative;
-  color: white;
+  color: black;
 }
 .dropdown-content {
   background-color: rgba(65, 65, 65, 0.779);
@@ -19,7 +19,7 @@
 }
 .dropdown-content .field {
   display: block;
-  color: #ffffff;
+  color: black;
   padding: 5px;
   text-decoration: none;
 }
@@ -62,7 +62,7 @@ footer {
   position: absolute;
   bottom: 0;
   background-color: #000000d0;
-  width: 100vw;
+width: 96.5vw;
   padding-left: 2rem;
 }
 
